@@ -1,2 +1,27 @@
 @import "tailwindcss";
 
+@theme {
+  /* Font */
+  --font-sans: "Inter", sans-serif;
+
+  /* Backgrounds */
+  --color-default: #F9FAFB;    /* soft white-gray */
+  --color-card: #FFFFFF;        /* true white */
+
+  /* Text */
+  --color-primary: #1A1A1A;   /* clean dark */
+  --color-secondary: #4B5563; /* slate-600 */
+  --color-placeholder: #9CA3AF; /* gray-400 */
+  --color-link: #3B82F6;      /* blue-500 */
+
+  /* Buttons */
+  --color-cta: #3B82F6;        /* blue-500 */
+  --color-cta-hover: #2563EB;  /* blue-600 */
+
+  /* Status */
+  --color-warning: #F87171;        /* red-400 */
+  --color-success: #34D399;        /* green-400 */
+
+  /* Borders & Muted UI */
+  --color-border-muted: #E5E7EB;   /* gray-200 */
+}

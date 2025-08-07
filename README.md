@@ -10,53 +10,69 @@
 
 # Tailwind Practice Project (React + Vite)
 
-This is a simple, responsive frontend project built using:
+A responsive frontend project built with:
 
 - **React**
 - **Vite**
 - **Tailwind CSS v4+**
 
-### Purpose
+---
 
-This project was created as a hands-on way for me to:
+## Purpose
 
-- Learn the fundamentals of **Tailwind CSS**
-- Practice **responsive layouts**
-- Build a simple **multi-page app** using React Router
-- Use **Vite** for a fast development experience
+This project was created to help me:
 
-It includes:
-
-- A 3-page layout: Dashboard, Profile, Contact
-- A responsive navigation bar that adapts to desktop, tablet, and mobile
-- Flexbox-based card layout with modal popups
-- Clean and semantic Tailwind utility class usage
-
-###  Live Site
-
-Check out the deployed site here:  
-[https://gy-tailwind-practice.netlify.app](https://gy-tailwind-practice.netlify.app)
+- Learn and apply the fundamentals of **Tailwind CSS**
+- Customize my own **design system** using CSS variables
+- Build a **multi-page app** with responsive layouts
+- Practice **modals**, **flexbox**, and **component reusability**
+- Improve UI/UX with real-world components like popups, buttons, icons, and more
 
 ---
 
----
+##  Live Site
 
-### Version 1 Goals (this version)
-
-Get familiar with Tailwind’s utility-first workflow  
-Build a quick project without much customization  
-Explore mobile-first responsive design  
-Use modals, flex layouts, and component reuse
+Check it out here:  
+🔗 [https://gy-tailwind-practice.netlify.app](https://gy-tailwind-practice.netlify.app)
 
 ---
 
-### What's Next? (Version 2 Roadmap)
+## Project Features
 
-Version 2 will include:
+ 3 responsive pages built with React Router:
 
-- **Tailwind Customization** using `tailwind.config.js`
-- **Design tokens** (custom colors, spacing, typography)
-- **Better UX**: animations, transitions, improved accessibility
-- **More dynamic data** and form handling
+- **Dashboard**  
+  Cards with modal previews and action buttons (primary, warning, success)
 
----
+- **Profile**  
+  User avatar, update modal, and styled user info
+
+- **Contact**  
+  Styled form with alert-based interactivity  
+  Social media links via **LinkedIn** and **Instagram** icons
+
+Custom color system defined using Tailwind CSS v4+ with `@theme` in CSS:
+
+```css
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+
+  --color-default: #F9FAFB;
+  --color-card: #FFFFFF;
+
+  --color-primary: #1A1A1A;
+  --color-secondary: #4B5563;
+  --color-placeholder: #9CA3AF;
+  --color-link: #3B82F6;
+
+  --color-cta: #3B82F6;
+  --color-cta-hover: #2563EB;
+
+  --color-warning: #F87171;
+  --color-success: #34D399;
+
+  --color-border-muted: #E5E7EB;
+}
+```
