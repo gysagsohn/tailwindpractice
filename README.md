@@ -1,3 +1,13 @@
+<p align="center">
+  <a href="https://github.com/gysagsohn/tailwindpractice">
+    <img src="https://img.shields.io/github/stars/gysagsohn/tailwindpractice?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://gy-tailwind-practice.netlify.app">
+    <img src="https://img.shields.io/netlify/939154c6-9299-49cc-950e-908b9560f2e3?label=Netlify%20Deploy&logo=netlify" alt="Netlify frontend">
+  </a>
+  <img src="https://img.shields.io/badge/status-live-brightgreen" alt="App status">
+</p>
+
 # Tailwind Practice Project (React + Vite)
 
 This is a simple, responsive frontend project built using:
@@ -21,6 +31,13 @@ It includes:
 - A responsive navigation bar that adapts to desktop, tablet, and mobile
 - Flexbox-based card layout with modal popups
 - Clean and semantic Tailwind utility class usage
+
+###  Live Site
+
+Check out the deployed site here:  
+[https://gy-tailwind-practice.netlify.app](https://gy-tailwind-practice.netlify.app)
+
+---
 
 ---
 
